@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Vini",
+  "version": "1.0",
+  "description": "Hotkey: dictate with ChatGPT, transcript lands on your clipboard.",
+  "permissions": [
+    "scripting",
+    "offscreen",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Vini",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png"
+    }
+  },
+  "commands": {
+    "toggle-dictation": {
+      "suggested_key": {
+        "default": "Alt+Shift+D",
+        "mac": "Alt+Shift+D"
+      },
+      "description": "Start / stop ChatGPT dictation (stop copies the text)",
+      "global": true
+    }
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApVKPPPEYukOtZIgzWzfcqxOM8/a0JPu8v+dTJBaKaj0bXG/pLRgDDwpgA2N4Ed3szouqwjQRFLoe3JZnzuDwUIOGVuo6+q8Gq1yixdIMtzkNzd/nalLcFBa0ZjJy8wpOcY82hS6LhIm2LrpsTPSmc3vfsJ1HSYkM5ip0PHiHjnnLRwZBDaIIksyvgkzbzQVY7Xnkq/br32tTEWXULc+iR9/O2qj9qJotomsVadso5/QhKlohHo6Jj88gEMKCvnNqMuetK4IElrwOOemJpdxSzbiJHJ51SlInggTY+M2ADt4fv9PLGUrJDVQyYiTuStk+RV0YdXIvqhYkPXf6B3myLwIDAQAB",
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}
