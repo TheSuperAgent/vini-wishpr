@@ -57,8 +57,12 @@ Vini trades automatic typing for simplicity and transparency. If you want text i
 
 - Vini has no server, no analytics and makes no network requests of its own. Your audio is recorded and transcribed by ChatGPT, under your own ChatGPT account and OpenAI's terms.
 - The transcript is placed on the system clipboard, so clipboard-history tools can see it.
-- Vini is an independent project, not affiliated with or endorsed by OpenAI. It automates the ChatGPT web UI, which may be restricted by OpenAI's terms of use. Use it at your own risk.
+- Vini is purely a hobby project, built to make the most of what ChatGPT can do. We respect OpenAI's technology and terms, and it is not affiliated with or endorsed by OpenAI.
 - After copying, Vini clears the ChatGPT message box, including any draft you had typed there.
+
+## Support
+
+Questions, bugs or ideas? [Open an issue](https://github.com/TheSuperAgent/vini-wishpr/issues) in this repo.
 
 ## License
 
