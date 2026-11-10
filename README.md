@@ -63,6 +63,19 @@ Vini trades automatic typing for simplicity and transparency. If you want text i
 - This is my personal hobby project. It is not associated with, sponsored by, or connected to any company I work for or have worked for.
 - After copying, Vini clears the ChatGPT message box, including any draft you had typed there.
 
+## The spirit of this project
+
+Vini is a pet project, made for fun and for my own daily use. I love what ChatGPT can do, and I built this out of admiration for it, not to exploit it. If the OpenAI team ever stumbles on this, I hope it reads as what it is: a small hobby tool from a fan, with nothing sneaky behind it.
+
+In plain words:
+
+- It runs only in your own browser and your own logged-in session, and does what you would do by clicking the Dictate button yourself.
+- It uses no API, no private endpoint, and no workaround of any limit, login or paywall.
+- It never collects or sends your credentials, conversations or audio anywhere. The only thing it touches is the transcript, which goes to your local clipboard.
+- It is not built for bulk use, scraping or resale, and it carries no OpenAI branding or assets.
+
+"ChatGPT" and "OpenAI" are trademarks of OpenAI, used here only to say what Vini works with. Please use Vini in line with OpenAI's terms. If OpenAI or anyone else has a concern about this project, [open an issue](https://github.com/TheSuperAgent/vini-wishpr/issues) and I will gladly listen and fix it.
+
 ## Support
 
 Questions, bugs or ideas? [Open an issue](https://github.com/TheSuperAgent/vini-wishpr/issues) in this repo.
