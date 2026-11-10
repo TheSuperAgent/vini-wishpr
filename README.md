@@ -1,7 +1,29 @@
-# Vini
+# Vini 🎙️
 
-A tiny Chrome extension: press a hotkey, talk, press it again, and your words land on the clipboard.
-It borrows ChatGPT's own dictation on chatgpt.com, so there is nothing to install besides the extension.
+**Voice-to-text on a hotkey, powered by the ChatGPT tab you already have open.**
+
+Press a shortcut, talk, press it again, and your words are on the clipboard, ready to paste into any app.
+No API key, no speech model to download, no server: Vini borrows ChatGPT's own dictation, in about 100 lines of plain JavaScript.
+
+## Why Vini
+
+You already pay for, or log in to, a world-class speech-to-text system: ChatGPT. Vini turns it into a system-wide dictation key instead of building another one.
+
+- **Zero setup cost.** No keys, billing, model downloads or accounts beyond the ChatGPT login you already have.
+- **Nothing to trust.** Under 100 lines, no dependencies, no build step, no network calls of its own. Read the whole thing in five minutes.
+- **Works in every app.** The result is on the clipboard, so `Cmd+V` works in your editor, chat, email or terminal.
+- **Fits in your flow.** One global shortcut to start, the same one to stop. No window to switch to.
+
+### How it compares
+
+| | Vini | OS built-in dictation | Whisper-style apps | Paid dictation tools |
+|---|---|---|---|---|
+| Setup | Load one folder | None | Install app and model, or add an API key | Install app, subscribe |
+| Ongoing cost | Your existing ChatGPT plan | Free | Free (local) or per-use (API) | Subscription |
+| Code you must trust | ~100 readable lines | OS vendor | A full app | A closed app |
+| Types into other apps for you | No, you paste | Yes | Often | Yes |
+
+Vini trades automatic typing for simplicity and transparency. If you want text injected straight into any field, use a native tool. If you want a tiny, auditable hotkey that reuses what you already have, this is it.
 
 ## Install
 
@@ -30,5 +52,16 @@ It borrows ChatGPT's own dictation on chatgpt.com, so there is nothing to instal
 - Needs a logged-in chatgpt.com session in the same Chrome profile.
 - It clicks ChatGPT's own buttons by their labels, so a ChatGPT UI change can break it.
 - A browser extension cannot type into other apps, so pasting is left to you.
+
+## Privacy and disclaimer
+
+- Vini has no server, no analytics and makes no network requests of its own. Your audio is recorded and transcribed by ChatGPT, under your own ChatGPT account and OpenAI's terms.
+- The transcript is placed on the system clipboard, so clipboard-history tools can see it.
+- Vini is an independent project, not affiliated with or endorsed by OpenAI. It automates the ChatGPT web UI, which may be restricted by OpenAI's terms of use. Use it at your own risk.
+- After copying, Vini clears the ChatGPT message box, including any draft you had typed there.
+
+## License
+
+[MIT](LICENSE)
 
 See [doc.md](doc.md) for how it works.
