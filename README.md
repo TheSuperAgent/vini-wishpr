@@ -1,6 +1,8 @@
-# Vini 🎙️
+# vini-wishpr 🎙️
 
 **Voice-to-text on a hotkey, powered by the ChatGPT tab you already have open.**
+
+*vini-wishpr is the project name. "Vini" is the extension you will see in Chrome.*
 
 Press a shortcut, talk, press it again, and your words are on the clipboard, ready to paste into any app.
 No API key, no speech model to download, no server: Vini borrows ChatGPT's own dictation, in about 100 lines of plain JavaScript.
